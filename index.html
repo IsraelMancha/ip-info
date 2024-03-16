@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<main class="container">
+  <form id="form-ip">
+    <label>
+      IP del usuario
+      <input id="user-ip" type="text" placeholder="Introduce aquí la IP">
+      <small>Por ejemplo: 23.123.12.11</small>
+    </label>
+    <button id="submit">Buscar información de esta IP</button>
+  </form>
+<br>
+  <div>
+    <pre id="results">
+
+    </pre>
+  </div>
+</main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
