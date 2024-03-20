@@ -29,7 +29,7 @@ $form.addEventListener('submit',async (event) => {
     $results.innerHTML = JSON.stringify(ipInfo, null, 2);
   }
 
-  $submit.removeAttribute('disbled');
+  $submit.removeAttribute('disabled');
   $submit.removeAttribute('aria-busy')
 })
 
